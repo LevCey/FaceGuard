@@ -4,6 +4,10 @@
 
 Built for [Walrus Haulout Hackathon 2025](https://haulout.devfolio.co/)
 
+🔗 **Live Demo**: https://face-guard.vercel.app/
+📦 **GitHub**: https://github.com/LevCey/FaceGuard
+⛓️ **Contract**: [Sui Testnet](https://suiscan.xyz/testnet/object/0x6bf6f69adf6e5cf1d69ffc43e346de907aecdad4ef211632cd0d5d60eb5c5cf2)
+
 ## 🎯 The Problem
 
 In the age of AI-generated content:
@@ -253,8 +257,9 @@ FaceGuard/
 
 ## 🚀 Live Demo
 
-- **Frontend**: [Deploy on Vercel]
+- **Frontend**: https://face-guard.vercel.app/
 - **Contract**: [View on Suiscan](https://suiscan.xyz/testnet/object/0x6bf6f69adf6e5cf1d69ffc43e346de907aecdad4ef211632cd0d5d60eb5c5cf2)
+- **GitHub**: https://github.com/LevCey/FaceGuard
 
 ## 🎬 Demo Video
 
