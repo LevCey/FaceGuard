@@ -1,0 +1,10 @@
+[package]
+name = "faceguard"
+version = "0.0.1"
+edition = "2024.beta"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
+
+[addresses]
+faceguard = "0x6bf6f69adf6e5cf1d69ffc43e346de907aecdad4ef211632cd0d5d60eb5c5cf2"

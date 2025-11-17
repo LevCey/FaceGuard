@@ -1,0 +1,16 @@
+# Move build artifacts
+build/
+
+# IDE
+.claude
+.vscode
+.idea
+*.swp
+*.swo
+
+# Sui wallet (SECURITY - never commit!)
+*.keystore
+.sui/
+
+# Logs
+*.log
