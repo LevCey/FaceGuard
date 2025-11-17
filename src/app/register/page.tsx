@@ -106,10 +106,6 @@ export default function RegisterPage() {
         signAndExecuteTransaction(
           {
             transaction: tx,
-            options: {
-              showEffects: true,
-              showObjectChanges: true,
-            },
           },
           {
             onSuccess: async (result: any) => {

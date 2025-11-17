@@ -111,7 +111,7 @@ export default function VerifyPage() {
 
             matchedNFT = {
               objectId: parsedEvent.nft_id,
-              owner: typeof owner === 'object' && 'AddressOwner' in owner ? owner.AddressOwner : 'Unknown',
+              owner: typeof owner === 'object' && owner !== null && 'AddressOwner' in owner ? owner.AddressOwner : 'Unknown',
               faceHash: fields.face_hash || faceHash,
               registrationDate: parseInt(fields.registration_date || '0'),
               walrusBlobId: fields.walrus_blob_id || '',

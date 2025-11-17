@@ -21,7 +21,8 @@ export class WalrusClient {
 
   async uploadFile(file: Buffer | Blob, epochs: number = 100): Promise<WalrusUploadResponse> {
     const formData = new FormData()
-    formData.append('file', file)
+    const blob = (file instanceof Buffer ? new Blob([new Uint8Array(file)]) : file) as Blob
+    formData.append('file', blob)
 
     const response = await axios.put(
       `${this.publisherUrl}/v1/store?epochs=${epochs}`,
